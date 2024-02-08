@@ -20,17 +20,20 @@ struct DetailView: View {
             Section(header: Text("Meeting Info")) {
                 NavigationLink(destination: MeetingView(scrum: $scrum)) {
                     Label("Start Meeting", systemImage: "timer")
+                        .symbolRenderingMode(.multicolor)
                         .font(.headline)
                     .foregroundColor(.accentColor)
                 }
                 HStack {
                     Label("Lenght", systemImage: "clock")
+                        .symbolRenderingMode(.multicolor)
                     Spacer()
                     Text("\(scrum.lengthInMinutes) minutes")
                 }
                 .accessibilityElement(children: .combine)
                 HStack {
                     Label("Theme", systemImage: "paintpalette")
+                        .symbolRenderingMode(.multicolor)
                     Spacer()
                     Text(scrum.theme.name)
                         .padding(4)
@@ -43,11 +46,14 @@ struct DetailView: View {
             Section(header: Text("Attendees")) {
                 ForEach(scrum.attendees) { attendee in
                     Label(attendee.name, systemImage: "person")
+                        .symbolRenderingMode(.multicolor)
                 }
             }
             Section(header: Text("Attendees")) {
                 ForEach(scrum.attendees) { attendee in
                     Label(attendee.name, systemImage: "person")
+                        .symbolRenderingMode(.multicolor)
+                        
                 }
             }
             
@@ -58,6 +64,7 @@ struct DetailView: View {
                 ForEach(scrum.history) { history in
                     HStack {
                         Image(systemName: "calendar")
+                            .symbolRenderingMode(.multicolor)
                         Text(history.date, style: .date)
                     }
                 }
