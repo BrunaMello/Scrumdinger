@@ -2,6 +2,11 @@
 
 Scrumdinger is a simple and intuitive iOS app designed to help teams effectively manage their Scrum meetings. With its sleek interface and user-friendly features, Scrumdinger streamlines the process of conducting Scrum ceremonies, ensuring teams stay organized, focused, and on track.
 
+## Video Demonstration
+
+Check out our [video demonstration](./RPReplay_Final1708170362.mp4) to see Scrumdinger in action!
+
+
 
 
 ## Features
