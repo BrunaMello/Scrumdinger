@@ -4,7 +4,7 @@ Scrumdinger is a simple and intuitive iOS app designed to help teams effectively
 
 ## Video Demonstration
 
-Check out our [video demonstration](./RPReplay_Final1708170362.mp4) to see Scrumdinger in action!
+Check out our [video demonstration]([./RPReplay_Final1708170362.mp4](https://www.youtube.com/shorts/Sd8FzGiZb18)) to see Scrumdinger in action!
 
 
 
